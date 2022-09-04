@@ -1,0 +1,218 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .main__menu-items {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .header__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__offer-items {
+        justify-content: center;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .main__download-content {
+        column-gap: 50px;
+    }
+
+    .main__burger-content {
+        column-gap: 50px;
+    }
+
+    .main__offer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .main__burger-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__burger-info {
+        text-align: center;
+    }
+
+    .main__burger-prices {
+        justify-content: center;
+    }
+
+    .header {
+        max-height: 886px;
+        height: 100%;
+    }
+
+    .header__info {
+        margin-top: 50px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer__content-items {
+        column-gap: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__download-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .footer__content-items {
+        column-gap: 40px;
+    }
+
+    .header__nav {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .header__nav-links {
+        margin-bottom: 15px;
+    }
+
+    .main__burger-content img {
+        width: 100%;
+    }
+
+    .main__offer-info {
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main__offer-item:nth-of-type(1) .main__offer-info {
+        left: 200px;
+    }
+
+    .main__offer-item:nth-of-type(3) .main__offer-info {
+        left: 200px;
+    }
+
+    .main__offer-item:nth-of-type(2) .main__offer-info {
+        left: 20px;
+    }
+
+    .main__offer-item:nth-of-type(4) .main__offer-info {
+        left: 20px;
+    }
+
+    .footer__content-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .header__info-name {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+
+    .header__info-description {
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 12px 33px;
+        font-size: 13px;
+    }
+
+    .main__offer-title {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .main__offer-description {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .main__offer-info {
+        margin: 0;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__offer-price {
+        font-size: 12px;
+    }
+
+    .main__offer-link {
+        line-height: 10px;
+    }
+
+    .main__download-title {
+        font-size: 30px;
+    }
+
+    .main__offer-item:nth-of-type(1) .main__offer-info {
+        left: 150px;
+    }
+
+    .main__offer-item:nth-of-type(3) .main__offer-info {
+        left: 150px;
+    }
+
+    .main__offer-item:nth-of-type(2) .main__offer-info {
+        left: 10px;
+    }
+
+    .main__offer-item:nth-of-type(4) .main__offer-info {
+        left: 10px;
+    }
+
+    .main__offer-item:nth-of-type(4) .main__offer-description {
+        max-width: 209px;
+        width: 100%;
+    }
+
+    .main__offer-item:nth-of-type(2) .main__offer-description {
+        max-width: 190px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {}
